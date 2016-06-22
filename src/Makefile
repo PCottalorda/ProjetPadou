@@ -2,14 +2,16 @@
 # Version minimale faite par Anthony Bucquet
 
 CC=g++
-CFLAGS=-std=c++11 -pedantic -W -Wall -Werror
+CFLAGS=-std=c++14 -pedantic -W -Wall -Werror
 LDFLAGS=
 
 BINDIR=../bin
+SRCDIR=../src
 OBJDIR=../obj
 DOCDIR=../doc
 
 SRC= $(wildcard *.cpp)
+DOCSRC=$(addprefix $(SRCDIR)/,$(SRC))
 INC= $(wildcard *.h) $(wildcard *.hpp)
 IOBJ=$(SRC:.cpp=.o)
 OBJ=$(addprefix $(OBJDIR)/,$(IOBJ))
@@ -33,6 +35,8 @@ $(OBJDIR)/%.o: %.cpp $(OBJDIR)
 
 doc:
 	@mkdir -p $(DOCDIR)
+	cd $(DOCDIR)
+	doxygen $(DOCSRC)
 
 
 ## Cleaning targets ##
