@@ -4,8 +4,8 @@
  * \author Anthony Bucquet
  */
 
-#ifndef INVENTORYPROPERTY
-#define INVENTORYPROPERTY
+#ifndef INVENTORYPROPERTY_H
+#define INVENTORYPROPERTY_H
 
 #include "EntityProperty.h"
 
@@ -13,4 +13,4 @@ class InventoryProperty : public EntityProperty {
 
 };
 
-#endif // define INVENTORYPROPERTY
+#endif // define INVENTORYPROPERTY_H

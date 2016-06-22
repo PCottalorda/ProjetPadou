@@ -5,11 +5,11 @@
  */
 
 
-#ifndef ENTITY
-#define ENTITY
+#ifndef ENTITY_H
+#define ENTITY_H
 
 class Entity {
 
 };
 
-#endif // define ENTITY
+#endif // define ENTITY_H

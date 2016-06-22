@@ -5,11 +5,11 @@
  */
 
 
-#ifndef ENTITYPROPERTY
-#define ENTITYPROPERTY
+#ifndef ENTITYPROPERTY_H
+#define ENTITYPROPERTY_H
 
 class EntityProperty {
 
 };
 
-#endif // define ENTITYPROPERTY
+#endif // define ENTITYPROPERTY_H

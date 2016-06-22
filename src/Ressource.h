@@ -4,11 +4,11 @@
  * \author Anthony Bucquet
  */
 
-#ifndef RESSOURCE
-#define RESSOURCE
+#ifndef RESSOURCE_H
+#define RESSOURCE_H
 
 class Ressource : public Entity {
 
 };
 
-#endif // define RESSOURCE
+#endif // define RESSOURCE_H

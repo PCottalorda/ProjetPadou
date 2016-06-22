@@ -7,6 +7,7 @@ else
 
 CLASSNAME=$1
 CCLASSNAME=$(echo $CLASSNAME | awk '{print toupper($0)}')
+CCLASSNAME+="_H"
 HEADERNAME="$1.h"
 SOURCENAME="$1.cpp"
 
