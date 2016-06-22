@@ -1,6 +1,6 @@
 /*!
  * \file InventoryProperty.h
- * \brief Abstract class to define methods an entity has when having invetory
+ * \brief Abstract class to define methods an entity has when having inventory
  * \author Anthony Bucquet
  */
 

@@ -7,6 +7,8 @@
 #ifndef RESSOURCE_H
 #define RESSOURCE_H
 
+#include "Entity.h"
+
 class Ressource : public Entity {
 
 };
